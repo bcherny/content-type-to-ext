@@ -8,9 +8,12 @@
 
 ## Installation
 
-```
+```sh
+# Using Yarn:
 yarn add content-type-to-ext
-npm install content-type-to-ext
+
+# Or, using NPM:
+npm install content-type-to-ext --save
 ```
 
 ## Usage
