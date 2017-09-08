@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "alwaysStrict": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": false,
+    "lib": [
+      "es5"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "newLine": "LF",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": ".",
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es5"
+  },
+  "files": [
+    "index.ts",
+    "test.ts"
+  ]
+}

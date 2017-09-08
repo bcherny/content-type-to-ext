@@ -1,0 +1,39 @@
+{
+  "name": "content-type-to-ext",
+  "version": "1.0.0",
+  "description": "Map content-type to file extension (and vice-versa)",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc -d",
+    "clean": "rm -f index.d.ts test.d.ts",
+    "lint": "tslint .",
+    "prepublishOnly": "npm run build",
+    "pretest": "npm run clean && npm run lint && npm run build",
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bcherny/content-type-to-ext.git"
+  },
+  "keywords": [
+    "content",
+    "type",
+    "file",
+    "extension",
+    "header",
+    "http",
+    "mime"
+  ],
+  "author": "Boris Cherny <boris@performancejs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bcherny/content-type-to-ext/issues"
+  },
+  "homepage": "https://github.com/bcherny/content-type-to-ext",
+  "devDependencies": {
+    "@types/node": "^8.0.27",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.2"
+  }
+}
